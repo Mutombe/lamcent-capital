@@ -1,0 +1,64 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__mosaic">
+    <i style="background:#fd8904;animation-delay:.05s"></i><i style="background:#0179e3;animation-delay:.1s"></i><i style="background:#0066ce;animation-delay:.15s"></i><i style="background:#0049b3;animation-delay:.2s"></i>
+    <i style="background:#03b7fe;animation-delay:.12s"></i><i style="background:#22b0f0;animation-delay:.17s"></i><i style="background:#0179e3;animation-delay:.22s"></i><i style="background:#0049b3;animation-delay:.27s"></i>
+    <i class="e"></i><i class="e"></i><i style="background:#03b7fe;animation-delay:.29s"></i><i style="background:#0066ce;animation-delay:.34s"></i>
+    <i class="e"></i><i class="e"></i><i style="background:#0179e3;animation-delay:.36s"></i><i style="background:#fca40d;animation-delay:.41s"></i>
+  </div>
+  <div class="preloader__word">Lamcent Capital · Fluent in Finance</div>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Lamcent Capital home">
+      <img class="logo-light" src="assets/img/logo-white.png" alt="Lamcent Capital, Fluent in Finance" width="880" height="224">
+      <img class="logo-dark" src="assets/img/logo.png" alt="" width="880" height="224">
+    </a>
+    <nav class="nav-pill" aria-label="Primary">
+      <span class="nav-glider" aria-hidden="true"></span>
+      <a href="index.html"{{cur:home}}>Home</a>
+      <a href="about.html"{{cur:about}}>About Us</a>
+      <a href="investment-focus.html"{{cur:focus}}>Investment Focus</a>
+      <a href="portfolio.html"{{cur:portfolio}}>Portfolio</a>
+      <a href="insights.html"{{cur:insights}}>Insights</a>
+    </nav>
+    <a class="btn btn--sm header-cta" href="contact.html">Get In Touch <svg class="arrow"><use href="#i-arrow"/></svg></a>
+    <a class="btn btn--sm btn--glass header-portfolio" href="portfolio.html"{{cur:portfolio}}>Portfolio</a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="drawer"><svg><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__scrim"></div>
+  <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer__top">
+      <a class="brand" href="index.html"><img src="assets/img/logo-white.png" alt="Lamcent Capital" width="880" height="224"></a>
+      <button class="menu-toggle" type="button" data-close aria-label="Close menu" style="display:grid"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <nav aria-label="Mobile">
+      <a href="index.html"{{cur:home}}><span>01</span>Home</a>
+      <a href="about.html"{{cur:about}}><span>02</span>About Us</a>
+      <a href="investment-focus.html"{{cur:focus}}><span>03</span>Investment Focus</a>
+      <a href="portfolio.html"{{cur:portfolio}}><span>04</span>Portfolio</a>
+      <a href="insights.html"{{cur:insights}}><span>05</span>Insights</a>
+      <a href="contact.html"{{cur:contact}}><span>06</span>Contact</a>
+    </nav>
+    <div class="drawer__foot">
+      <span class="drawer__kicker">Talk to us</span>
+      <div class="drawer__contacts">
+        <a href="mailto:lameck@lamcentcapital.com"><span class="drawer__ic"><svg><use href="#i-mail"/></svg></span><span><small>Email</small>lameck@lamcentcapital.com</span></a>
+        <a href="tel:+263782408655"><span class="drawer__ic"><svg><use href="#i-phone"/></svg></span><span><small>Call</small>+263 782 408 655</span></a>
+        <a href="https://maps.google.com/?q=7+Everret+Close,+Mt+Pleasant,+Harare" target="_blank" rel="noopener"><span class="drawer__ic"><svg viewBox="0 0 26 32"><use href="#i-pin"/></svg></span><span><small>Visit</small>7 Everret Close, Mt Pleasant, Harare</span></a>
+      </div>
+      <div class="drawer__social">
+        <span>Follow</span>
+        <div class="socials">
+          <a href="https://www.linkedin.com/company/lamcent-capital/" target="_blank" rel="noopener" aria-label="Lamcent Capital on LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+          <a href="{{youtube}}" data-youtube target="_blank" rel="noopener" aria-label="Lamcent Capital on YouTube"><svg><use href="#i-youtube"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
